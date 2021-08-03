@@ -1,23 +1,36 @@
 body {
-  background: rgb(248, 248, 204);
-}
-h1 {
-  color: cadetblue;
-}
-
-.container {
-  max-width: 720px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .weather-app {
-  font-family: sans-serif;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
   background: rgb(213, 243, 243);
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
-  padding: 40px;
   color: #878787;
+}
+
+h1 {
+  color: rgb(233, 162, 189);
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(112, 117, 122);
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
