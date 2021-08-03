@@ -1,3 +1,23 @@
+body {
+  background: rgb(252, 252, 209);
+}
 h1 {
   color: cadetblue;
+}
+
+.container {
+  max-width: 720px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Weather {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  background: rgb(195, 240, 241);
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 40px;
+  color: #878787;
 }
