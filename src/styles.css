@@ -1,5 +1,5 @@
 body {
-  background: rgb(252, 252, 209);
+  background: rgb(248, 248, 204);
 }
 h1 {
   color: cadetblue;
@@ -13,9 +13,9 @@ h1 {
   margin-left: auto;
 }
 
-.Weather {
-  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  background: rgb(195, 240, 241);
+.weather-app {
+  font-family: sans-serif;
+  background: rgb(213, 243, 243);
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
