@@ -40,6 +40,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "d17c0f5bc809bf15762311858a89abcd";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Reykjavik&appid=${apiKey}&units=metric`;
+let city = "Reykjavik";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
