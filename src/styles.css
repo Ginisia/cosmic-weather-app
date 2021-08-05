@@ -68,3 +68,7 @@ li::first-letter {
 .weather-temperature .active:hover {
   color: crimson;
 }
+
+small {
+  color: #a7d0cd;
+}
