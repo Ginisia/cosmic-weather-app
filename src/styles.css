@@ -28,6 +28,11 @@ li {
 li::first-letter {
   text-transform: capitalize;
 }
+
+small {
+  color: #a7d0cd;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -69,9 +74,6 @@ li::first-letter {
   color: crimson;
 }
 
-small {
-  color: #a7d0cd;
-}
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
