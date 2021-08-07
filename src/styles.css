@@ -86,3 +86,8 @@ small {
   font-size: 13px;
   opacity: 0.5;
 }
+.crow-icon {
+  float: right;
+  color: #f2f2f1;
+  font-size: 40px;
+}
